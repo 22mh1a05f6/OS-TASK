@@ -1,0 +1,532 @@
+001. Aggregation (encapsulation) relationship is represented in UML notation by Options B
+A Line with solid diamond at one end B Line with hollow diamond at one end
+C Line with an arrow at one end D Line without an arrow
+002. Control flow diagrams are A
+A Needed to model event driven
+systems
+B Required for all systems
+C Used in place of data flow diagrams D Used to represent system behavior
+003. In class diagram, inside each class what is to be printed? B
+A Its name, attributes, operations and
+derived class
+B Its name, attributes and operations
+C Its name and attributes D Its name and operations
+004. Which of the following UML diagrams represent the structural View of the software? A
+A Class Diagram B Sequence Diagram
+C Component Diagram D Deployment Diagram
+005. Which of the following is not a UML diagram? C
+A Class diagram B Object Diagram
+C Interface diagram D Use case model
+006. Which among these are the rules to be considered to form Class diagrams? A
+A Class symbols must have at least a
+name compartment
+B Compartment can be in random order
+C Operations can be listed at any
+suitable place
+D Attributes can be listed at any suitable
+place
+007. Key elements of use-case diagrams are B
+A People, computer B Actors, use cases
+C People, classes and objects D Uses, cases
+008. What are the elements of a WebApp interaction model? C
+A Activity diagrams, sequence
+diagrams, state diagrams, interface
+diagrams
+B Activity diagrams, collaboration
+diagrams, sequence diagrams, state
+diagrams
+C Use cases, sequence diagrams, state
+diagrams, interface prototype
+D Use cases, sequence diagrams, state
+diagrams, collaboration diagrams
+009. Which of the following are not the area of concern in design model? D
+A Architecture B Data
+C Interface D Project scope
+010. Which is not one of the analysis activities that is used to create a complete analysis
+model?
+D
+A Configuration analysis B Content analysis
+C Functional analysis D Market analysis
+011. The data flow diagram B
+A Depicts relationships between data
+objects
+B Depicts functions that transform the
+data flow
+C Used to represent system behavior D Needed to model event driven
+systems
+012. For purposes of behavior modelling an event occurs whenever B
+A A state and process exchange
+information
+B The system an anchor exchange
+information
+C Two actors exchange information D Two objects exchanges information
+013. The state transition diagram D
+A Depicts relationships between objects B Depicts functions that transform the
+data flow
+C Indicates how data re transformed by
+the system
+D Indicates system reactions to external
+events
+014. For purposes of behavior modeling state is an C
+A Consumer or producer of data B Data object hierarchy
+C Observable mode of behavior D Wee defined process
+015. In collaborative requirements gathering, the facilitator C
+A cannot be a member of the software
+team
+B cannot be a customer
+C controls and facilitates the process D must be an outsider
+016. Outsourcing applications that run on Web is referred to as B
+A ubiquitous learning B net sourcing
+C ubiquitous computing D open source
+017. Which one of the following is a requirement that fits in a developers module ? B
+A Availability B Testability
+C Usability D Flexibility
+018. The importance of software design can be summarized in a single word D
+A Accuracy B Complexity
+C Efficiency D Quality
+019. which of the following is not one of the dimensions of quality used to access a
+WebApp?
+B
+A Content B Maintainability
+C Navigability D Usability
+020. Which of the following is not a WebApp interface mechanism? C
+A Browser B Cookies
+C Forms D Links
+021. Which is focused towards the goal of the organization? A
+A Feasibility study B Requirement gathering
+C Software requirement specification D Software requirement validation
+022. An architectural style not encompasses which of the following elements? D
+A Constraints B Set of components
+C Semantic models D Syntactic models
+023. Which of these are characteristics of a good design? A
+A Exhibits strong coupling between its
+modules
+B Implements all requirements in the
+analysis model
+C Includes test cases for all
+components
+D Writing the lengthy code
+024. To determine the architectural style or combination of styles that best fits the proposed
+system, requirements engineering is used to uncover
+B
+A Algorithmic complexity B Characteristics and constraints
+C Control and data D Design patterns
+025. The interviews, which are held between two persons across the table is ______. D
+A Written B Non-structured
+C Group D One-to-one
+026. Which document is created by system analyst after the requirements are collected from
+Various stakeholders?
+A
+A Software requirement specification B Software requirement validation
+C Feasibility study D Requirement Gathering
+027. In which elicitation process the developers discuss with the client and end users and
+know their expectations from the software?
+A
+A Requirement gathering B Organizing requirements
+C Negotiation & discussion D Documentation
+028. Requirement engineering process not includes which of these steps? D
+A Feasibility study B Requirement Gathering
+C Software Requirement specification &
+Validation
+D Coding
+029. Which design model is equivalent to a set of detailed drawings for each room in a
+house?
+B
+A Architectural design B Component - level design
+C Data design D Interface design
+030. Which tool is use for structured designing? B
+A Program flowchart B Structure chart
+C Data-flow diagram D Module
+031. Which design model is equivalent to the detailed drawings of the access points and
+external utilities for a house?
+D
+A Architectural design B Component - level design
+C Data design D Interface design
+032. what types of abstractions are not used in software design? C
+A Control B Data
+C Environment D Procedural
+033. Which of the following is not one of the five design class types B
+A Business domain Classes B Entity Classes
+C Process Classes D User interface Classes
+034. Which design model elements are used to depict a model of information represented
+from the users view?
+C
+A Architectural design elements B Component-level design elements
+C Data design elements D Interface design elements
+035. which design is equivalent to the floor plan of a house? A
+A Architectural design B Component - level design
+C Data design D Interface design
+036. What is incorrect about structural design? C
+A Structural design introduced notations
+and heuristics
+B Structural design emphasis on
+procedural decomposition
+C The advantage is data flow
+representation
+D It follows Structure chart
+037. What is the solution for Structural design? C
+A The specification model following
+data flow diagram
+B Procedures represented as bubbles
+C Specification model is structure chart
+showing procedure calling hierarchy
+and flow of data in and out of
+procedures
+D Emphasizing procedural
+decomposition
+038. The primary objective of system design is to A
+A Design the programs, databases and
+test plan
+B Design only user interfaces
+C Implement the system D find out how the system will perform
+039. A step by step instruction used to solve a problem is known as D
+A Sequential structure B A List
+C A plan D An Algorithm
+040. Who designs and implement database structures. D
+A Programmers B Project managers
+C Technical writers D Database administrators
+041. Debugging is: B
+A creating program code B finding and correcting errors in the
+program code
+C identifying the task to be
+computerized
+D creating the algorithm
+042. In the context of object-oriented software engineering a component contains D
+A Attribute and Operations B Instances of each class
+C roles for each actor D Set of collaborating classes
+043. Which of the these constructs is not used in structured programming? A
+A Branching B Condition
+C Repetition D Sequence
+044. which of the following is not an example of infrastructure components that may need to
+be integrated into the software architecture?
+C
+A Communications components B Database components
+C Interface components D Memory management components
+045. Which of the following is an incorrect method for structural design? B
+A Transition of problem models to
+solution models
+B Handling of larger and more complex
+products
+C Designing Object oriented systems D More procedural approach
+046. Which step among these follows the wrong sequence in software engineering design
+process?
+C
+A Analyze problem B Generate candidate architecture
+C Finalize design D Select detailed design
+047. Which of the following is the essential feature of ADL? B
+A The ability to provide structures B The ability to declare a component
+and name its type
+C The ability to support analytical
+capability
+D The ability to test the code
+048. ______ tool is used for structured designing. A
+A Structure chart B Data flow diagram
+C Module D Program flow chart.
+049. Which of these is a graphical notation for depicting procedural detail? D
+A process diagram B decision table
+C ER diagram D flowchart
+050. What are the diagrams used for process modeling? B
+A UML Diagrams B Data Flow diagrams
+C Process diagrams D Flow chart
+051. Which of the following is not one of the major activities of domain engineering? D
+A Analysis B Construction
+C Dissemination D Validation
+052. Which of the following is a technique used for component wrapping? B
+A Black - box wrapping B Clear - box wrapping
+C Grey - box wrapping D White - box wrapping
+053. ____ enables users to interact using windows, icons with the computer system and
+application system.
+C
+A Operating system. B GUI
+C User-interface D Command prompt
+054. . The best kind of module cohesion is ___. A
+A Coincidental cohesion B Functional cohesion
+C Logical cohesion D Temporal cohesion
+055. ___ is the best kind of module coupling C
+A Control Coupling B Stamp Coupling
+C Data Coupling D Content Coupling
+056. Guess which is not involved in design model. B
+A Architecture B Project scope
+C Modular design D Data design
+057. Which of the following is not a construct? D
+A Sequence B Condition
+C Repetition D Selection
+058. A __________ executes the loop task first, then tests a condition and repeats the task
+until the condition fails.
+A
+A repeat until B condition
+C do while tests D if then-else
+059. Which of the following is not a characteristics of box diagram? D
+A functional domain B arbitrary transfer of control is
+impossible
+C recursion is easy to represent D providing a notation that translates
+actions and conditions
+060. Which of these is not one of the design activities associated with object oriented by
+hypermedia design?
+C
+A Abstract interface design B Conceptual design
+C Content Design D Navigational design
+061. Which of the following is not one of the four principles used to guide component-level
+design?
+D
+A Dependency Inversion Principle B Interface Segregation Principle
+C Open-closed Principle D Parsimonious Complexity Principle
+062. Which of the following is not one of the content architectural structures used by web
+engineers?
+D
+A linear B grid
+C hierarchical D parallel
+063. Similarly, the worst kind of module coupling is____. B
+A Control Coupling B External Coupling
+C Content coupling D Exterior coupling.
+064. ___ focuses on entities instead on the activities of data processing. C
+A Class-oriented design B DFD
+C Object-oriented design D Function-oriented design
+065. Which of the following not part of the design pyramid for WebEdesign? B
+A Architectural design B Business case design
+C Content design D Navigation design
+066. ____________ is a reuse-based approach to defining, implementing, and composing
+loosely coupled independent components into systems.
+D
+A Component-based software
+engineering
+B Component composition
+C Component model D Component interfaces
+067. Which of the following is not a dimension of scalability? D
+A Size B Distribution
+C Manageability D Interception
+068. The component-based development model is C
+A Only appropriate for computer
+hardware design.
+B Not able to support the development
+of reusable components.
+C Works best when object technologies
+are available for support.
+D Not cost effective by known
+quantifiable software metrics
+069. A decision table should be used D
+A To document all conditional
+statements
+B To guide the development of the
+project management plan
+C Only when building an expert system D When a complex set of conditions
+and actions appears in a component
+070. A program design language (PDL) is often a A
+A Combination of programming
+constructs and narrative text
+B Legitimate programming language in
+its own right
+C Machine readable software
+development language
+D Useful way to represent software
+architecture
+071. Which model depicts the look and feel of the user interface along with all supporting
+information?
+A
+A Implementation model B User model
+C User &#39s model D System perception
+072. Which of the following is not a golden rule for interface design? D
+A Place the user in control B Reduce the users memory load
+C Make the interface consistent D Write lengthy code
+073. Which of the following is not a user interface design process? C
+A User, task, and environment analysis
+and modeling
+B Interface design
+C Knowledgeable, frequent users D Interface validation
+074. Component based software engineering emphasizes on ________ C
+A Coupling B Software planning
+C Reusability D Deployment
+075. QoS stands for C
+A Quality of security B Quality of system
+C Quality of service D Quality of software
+076. Service Oriented Architecture (SOA) is B
+A Strongly Coupled B Loosely Coupled
+C Strongly Cohesive D Loosely Cohesive
+077. RTOS stands for B
+A Real-life operating system B Real-time operating system
+C Real-time operating software D Real-life operating software
+078. ____ refers to the process that establishes physical connections among the elements
+in OO Design.
+A
+A Coupling B Cohesion
+C Associationship D Dependancy.
+079. We can treat a design as a good design when the components are _____cohesive and
+weakly___.
+A
+A Strongly, Weakly B Weakly, Strongly
+C Strongly, Strongly D Weakly, Weakly.
+080. During system study,_____ are used to draw flowcharts. B
+A Special symbols B General symbols
+C Abbreviated symbols D Non-standard symbols.
+081. What incorporates data, architectural, interface, and procedural representations of the
+software?
+A
+A design model B users model
+C mental image D system image
+082. What establishes the profile of end-users of the system? B
+A design model B users model
+C mental image D system image
+083. What combines the outward manifestation of the computer-based system , coupled
+with all supporting information that describe system syntax and semantics?
+C
+A mental image B interface design
+C system image D interface validation
+084. Which of the following is not a type of user interface? C
+A Command language based B Menu based
+C Efficiency based D Direct manipulation based
+085. Which of the following devices are mainly responsible for the user interface? A
+A Input and output devices B Memory devices
+C Processor D Random Access Memory
+086. _________ represents an Information system graphically. C
+A Activitydiagram B Pictogram
+C DataFlowdiagram D Simply a flowchart.
+087. Guess that one word can depict the significance of software design. D
+A Efficiency B Complexity
+C Unambiguous D Quality
+088. ___________of a single module/component is the degree to which its responsibilities
+form a meaningful unit.
+A
+A Cohesion B Coupling
+C Associationship D Dependancy
+089. Which of the following represents the degree of mutual interdependence between
+modules/components.
+B
+A Cohesion B Coupling
+C Associationship D Dependancy
+090. Which type of user interface provide input by typing a string in the keyboard ? B
+A Graphical user interface B Command line user interface
+C Natural language interface D Menu interface
+091. Natural language user interface can accept input in the form of B
+A String command B Speech
+C Image D Video
+092. Which of the following is not a type of user interface? C
+A Command language based B Menu based
+C Efficiency based D Direct manipulation based
+093. Which of these framework activities is not normally associated with the user interface
+design processes?
+A
+A Cost estimation B Interface Construction
+C Interface validation D User and Task Analysis
+094. Which model depicts the image of a system that an end user creates in his or her
+head?
+D
+A Design model B User model
+C System model D System perception
+095. Which model depicts the profile of the end user of a computer system? C
+A Design model B Implementation model
+C User model D System model
+096. Who identifies, documents, and verifies that corrections have been made to the
+software?
+C
+A Project manager B Project team
+C SQA group D Testing group
+097. Six Sigma methodology defines three core steps. C
+A Analyze, improve, control B Analyze, design, verify
+C Define, measure, analyze D Define, measure, control
+098. Which of the following is not an appraisal cost in SQA? C
+A Inter-process inspection B Maintenance
+C Quality planning D Testing
+099. Which requirements are the foundation from which quality is measured? B
+A Hardware B Software
+C Programmers D Documentation
+100. Which of the following is not a SQA plan for a project? B
+A Evaluations to be performed B Amount of technical work
+C Audits and reviews to be performed D Documents to be produced by the
+SQA group
+101. Which of the following is not included in External failure costs? A
+A Testing B Help line support
+C Warranty work D Complaint resolution
+102. Faults are found most cost-effectively in which test activity? C
+A Design B Execution
+C Planning D Check Exit criteria completion
+103. Which of the following is not a phase of bathtub curve of hardware reliability? D
+A Useful Life B Burn-in
+C Wear-out D Time
+104. What happened if an expected result is not specified then D
+A We cannot run the test B We cannot automate the user input
+values
+C It may be difficult to determine if the D It may difficult to repeat the test
+test has passed or failed
+105. What is Six Sigma? C
+A It is the most widely used strategy for
+statistical quality assurance
+B The Six Sigma refers to six standard
+deviations
+C It is the most widely used strategy for
+statistical quality assurance AND The
+Six Sigma refers to six standard
+deviations
+D A Formal Technical Review(FTR)
+guideline for quality walkthrough or
+inspection
+106. Which of the following is not a core step of Six Sigma? B
+A Define B Control
+C Measure D Analyse
+107. Which of the following is not included in prevention cost? A
+A Equipment calibration and
+maintenance
+B Formal technical reviews
+C Test equipment reviews D Quality planning reviews
+108. NHPP stands for D
+A Non Homogeneous Poisson Product B Non-Hetrogeneous Poisson Product
+C Non-Hetrogeneous Poisson Process D Non Homogeneous Poisson Process
+109. The CMM model is a technique to B
+A Automatically maintain the software
+reliability
+B Improve the software process.
+C Test the software D Execute the Software
+110. How is software reliability defined? A
+A Time B Efficiency
+C Quality D Speed
+111. How is reliability and failure intensity related to each other? B
+A Direct relation B Inverse relation
+C Dependency relation D No relation
+112. Which one of the following is not a software quality model? A
+A ISO 9000 B McCall model
+C Boehm model D ISO 9126
+113. What is MTTF ? B
+A Maximum time to failure B Mean time to failure
+C Minimum time to failure D Maximum testing time of failure
+114. Test cases are designed during which of the following stages? D
+A Test recording B Test configuration
+C Test planning D Test specification
+115. Which of the following is not a Test Type? C
+A Database Testing B Security Testing
+C Statement Testing D Functional Testing
+116. What is V Model? C
+A Test Design Technique B Test Type
+C SDLC Model D Test Level
+117. How many levels are present in CMM? C
+A Three B Four
+C Five D Six
+118. A system maintaining its integrity while accepting a temporary halt in its operation is
+said to be in a state of
+D
+A Full Fault Tolerance B Graceful Degradation
+C Fail Soft D Fail Safe
+119. System testing is a A
+A Black box testing B Grey box testing
+C White box testing D Red box testing
+120. Alpha testing is: D
+A Post-release testing by end user
+representatives at the developers site
+B The first testing that is performed
+C Pre-release testing by end user
+representatives at their sites
+D Pre-release testing by end user
+representatives at the developers site
+121. Bottom-up integration has as its major advantage(s) that C
+A Major decision points are tested early B No drivers need to be written
+C No stubs need to be written D Regression testing is not required
+122. Unit testing is done by: B
+A Users B Developers
+C Customers D Seller
+123. Exhaustive testing is: B
+A Always possible B Impractical but possible
+C Practically possible D Impractical and impossible
+124. White-box testing can be started: C
+A After installation B After SRS creation
+C After programming D After designing
+125. Beta Testing is done at: B
+A Developers end B Users end
+C Users & Developers end D System software
