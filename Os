@@ -143,9 +143,57 @@ Options; -b like --backup but does not accept an argument.
  -f, --force do not prompt before overwriting.
 
  -i, --interactive prompt before overwrite.
+-----------_-------------------------------------------------------
 
+6) Multiprogramming-Memory management- Implementation of fork (), wait (), exec() and
 
-b) AIM: To write a ‘C’ Program to simulate Least Recently Used (LRU) Page Replacement 
+exit (), System calls
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <unistd.h> /* for fork */
+
+#include <sys/types.h> /* for pid_t */
+
+#include <sys/wait.h> /* for wait */
+
+int main(int argc,char** argv)
+
+{
+
+/*Spawn a child to run the program.*/
+
+pid_t pid=fork();
+
+if (pid==0)
+
+{ /* child process */
+
+execv("/bin/ls",argv);
+
+exit(127); /* only if execv fails */
+
+}
+
+else
+
+{ /* pid!=0; parent process */
+
+printf("\nWaiting Child process to finish");
+
+//waitpid(pid,0,0); /* wait for child to exit */
+
+wait(NULL);
+
+}
+
+printf("\nExiting main process\n");
+return 0; }
+---------------------------------------------———————————
+
+10b) AIM: To write a ‘C’ Program to simulate Least Recently Used (LRU) Page Replacement 
 
 Algorithm
 
@@ -203,8 +251,9 @@ for(k=0;c[k]!=a[i]&&k<nps;k++);
 
 else
 
- {
-for (j=k;j<nps-1;j++)
+ }
+
+ for (j=k;j<nps-1;j++)
 
  c[j]=c[j+1];
 
@@ -224,67 +273,50 @@ printf (" \n\tNo of page faults occurred are %d",npf);
 
 }
 
-OUTPUT: 
+---------------------------------------------------
 
-Enter no of pages: 20
+Experiment-14
 
-Enter pages: 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+Write C program to create a thread using pthreads library and let it run its function.
 
-Enter no of page frames: 3
+AIM: Write C program to create a thread using pthreads library and let it run its function.
 
-Multiprogramming-Memory management- Implementation of fork (), wait (), exec() and
+#include<stdio.h>
 
-exit (), System calls
+#include<stdlib.h>
 
-#include <stdio.h>
+#include<pthread.h>
 
-#include <stdlib.h>
-
-#include <unistd.h> /* for fork */
-
-#include <sys/types.h> /* for pid_t */
-
-#include <sys/wait.h> /* for wait */
-
-int main(int argc,char** argv)
+void *mythread(void *vargp)
 
 {
 
-/*Spawn a child to run the program.*/
+ sleep(1);
 
-pid_t pid=fork();
+ printf("welcome to thread creation example·\n");
 
-if (pid==0)
-
-{ /* child process */
-
-execv("/bin/ls",argv);
-
-exit(127); /* only if execv fails */
+ return NULL;
 
 }
 
-else
+int main()
 
-{ /* pid!=0; parent process */
+{
 
-printf("\nWaiting Child process to finish");
+ pthread_t tid;
 
-//waitpid(pid,0,0); /* wait for child to exit */
+ printf("before thread\n");
 
-wait(NULL);
+ pthread_create(&tid,NULL,mythread,NULL);
+
+ pthread_join(tid,NULL);
+
+ exit(0);
 
 }
 
-printf("\nExiting main process\n");
-return 0; }
+OUTPUT:
 
-Output:
+before thread
 
-ui 
-
-dsfg
-
-gfh 
-
-tyrert
+welcome to thread creation example
