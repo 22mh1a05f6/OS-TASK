@@ -1,0 +1,290 @@
+man Command 
+
+Short for "manual," man allows a user to format and display the user manual built into Linux 
+
+distributions, which documents commands and other aspects of the system. 
+
+Syntax: man [option(s)] keyword(s) 
+
+Example man ls
+
+who Command
+
+Identifies the users currently logged in. The "who" command lets you display the users that are 
+
+currently logged into your UNIX computer system. The following information is displayed: login 
+
+name, workstation name, date and time of login. Entering who am i or who am I displays your 
+
+login name, workstation name, date and time you logged in. 
+
+Syntax: who [OPTION]... [ FILE | ARG1 ARG2 ] 
+
+Example who 
+
+cat Command
+
+cat is used to display the contents of the file. cat is used to create file.
+
+Syntax:
+
+cat >filename used to create file.
+
+cat file name used to display content of file.
+
+Examples: 
+
+$ cat>my
+
+Balji
+
+Navya
+Shanmugam
+
+^d //Press Ctrl D
+
+$ cat my
+
+Balji
+
+Navya
+
+Rukmini
+
+Shanmugam
+
+cd Command 
+
+The cd command, which stands for "change directory", changes the shell's current working 
+
+directory. 
+
+Syntax: cd directory name 
+
+Example: cd new
+
+cd . 
+
+cd ..
+
+cp Command:
+
+Used if user wants to copy files from one location to another. Copied file is inherited from existing 
+
+source file whatever permission provided in original transfer to duplicate file
+
+Syntax: cp [option] source file destination file
+
+Options:
+
+-f Forces to copy,does not ask user choice
+
+-i Interactive copy,asks for user choice if yes then only proceed.
+
+-r Recursively copies files.
+
+-R Recursively copy & copying of device nodes and named pipes.
+
+-p Transfer the characteristics of time of last modification & access, userid & Groupid,File 
+
+permission.
+
+Example:
+
+$cp my newmy
+
+The cp command can be used to copy a file my from current working directory to it with different
+ps Command
+
+Report a snapshot of the current processes. ps displays information about a selection of the 
+
+active processes.
+
+Syntax:
+
+ ps [options]
+
+Options:
+
+-e To see every process on the system.
+
+-ejH To print a process tree
+
+-a Displays all processes on a terminal, with the exception of group leaders.
+
+-l Displays a long listing.
+
+ls Command
+
+List contents of directories.
+
+ls,l,lc,lf,lr,lx
+
+Syntax:ls [options] [file-list]
+
+Description
+
+L List Files with long information including symbolic links.
+
+lc List files in column
+
+lf List files indicating directories, executable and symbolic links.
+
+lr List files recursively listing any subdirectories encounterd.
+
+mv Command
+
+move (rename) files 
+
+Syntax: mv [OPTION]... SOURCE... DIRECTORY 
+
+Options; -b like --backup but does not accept an argument.
+
+ -f, --force do not prompt before overwriting.
+
+ -i, --interactive prompt before overwrite.
+
+
+b) AIM: To write a ‘C’ Program to simulate Least Recently Used (LRU) Page Replacement 
+
+Algorithm
+
+#include<stdio.h>
+
+void main ( )
+
+{
+
+int a[50],c[10],i,j,k,ps,nop,npf=0,nps=0;
+
+printf("\n\t Enter no of pages :");
+
+scanf("%d",&nop);
+
+printf("\n\tEnter pages :");
+
+for(i=0;i<nop;i++)
+
+{
+
+scanf("%d",&a[i]);
+
+}
+
+printf("\n\tEnter no of page frames : ");
+
+scanf ("%d",&ps);
+
+for(i=0;i<nop;i++)
+
+{
+
+for(k=0;c[k]!=a[i]&&k<nps;k++);
+
+ if(k==nps)
+
+ {
+
+ npf++;
+
+ if(nps==ps)
+
+ for(k=0;k<nps-1;k++)
+
+ c[k]=c[k+1];
+
+ c[k]=a[i];
+
+ if(nps<ps)
+
+ nps++;
+
+ }
+
+else
+
+ {
+for (j=k;j<nps-1;j++)
+
+ c[j]=c[j+1];
+
+ c[j]=a[i];
+
+}
+
+printf("\n") ;
+
+ for(k=0;k<nps;k++)
+
+ printf("%d" ,c[k]) ;
+
+}
+
+printf (" \n\tNo of page faults occurred are %d",npf);
+
+}
+
+OUTPUT: 
+
+Enter no of pages: 20
+
+Enter pages: 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+
+Enter no of page frames: 3
+
+Multiprogramming-Memory management- Implementation of fork (), wait (), exec() and
+
+exit (), System calls
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <unistd.h> /* for fork */
+
+#include <sys/types.h> /* for pid_t */
+
+#include <sys/wait.h> /* for wait */
+
+int main(int argc,char** argv)
+
+{
+
+/*Spawn a child to run the program.*/
+
+pid_t pid=fork();
+
+if (pid==0)
+
+{ /* child process */
+
+execv("/bin/ls",argv);
+
+exit(127); /* only if execv fails */
+
+}
+
+else
+
+{ /* pid!=0; parent process */
+
+printf("\nWaiting Child process to finish");
+
+//waitpid(pid,0,0); /* wait for child to exit */
+
+wait(NULL);
+
+}
+
+printf("\nExiting main process\n");
+return 0; }
+
+Output:
+
+ui 
+
+dsfg
+
+gfh 
+
+tyrert
